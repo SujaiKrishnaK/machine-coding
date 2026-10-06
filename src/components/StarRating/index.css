@@ -1,0 +1,21 @@
+.wrapper {
+  position: relative;
+  height: 100px;
+}
+.star {
+  font-size: 100px;
+  display: inline-block;
+  color: grey;
+  cursor: pointer;
+}
+
+.star.right {
+  position: absolute;
+  transform: translateX(-194%);
+  color: gold;
+  overflow-x: hidden;
+  width: 26px;
+}
+.full-star {
+  color: gold;
+}

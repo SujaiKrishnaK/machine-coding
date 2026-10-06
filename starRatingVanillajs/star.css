@@ -1,0 +1,34 @@
+.star-rating {
+  position: relative;
+}
+
+.half-star,
+.full-star,
+.default-star {
+  font-size: 200px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+.half-star span:nth-child(2) {
+  color: gold;
+  overflow: hidden;
+  position: absolute;
+  width: 50px;
+  left: 0;
+  top: 0;
+}
+.half-star span:nth-child(1) {
+  /* position: absolute; */
+  color: grey;
+}
+.default-star {
+  color: grey;
+}
+.full-star span {
+  color: gold;
+}
+.hide {
+  display: none;
+}

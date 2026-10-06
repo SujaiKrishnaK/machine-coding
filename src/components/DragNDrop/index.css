@@ -1,0 +1,33 @@
+.dragNDropContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  height: 100vh;
+  border: 1px solid #ccc;
+  background-color: aliceblue;
+  position: relative;
+  box-sizing: border-box;
+}
+.ticketsContainer {
+  height: 100%;
+  box-sizing: border-box;
+  background-color: white;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.ticketsContainer h2 {
+  position: sticky;
+  top: 0;
+  text-align: center;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+.ticket {
+  background-color: #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  height: 100px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

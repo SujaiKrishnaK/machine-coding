@@ -1,0 +1,32 @@
+.toast {
+  border: 1px solid red;
+  width: 400px;
+  height: 200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  border-radius: 20px;
+  background-color: aqua;
+  position: fixed;
+}
+.notify {
+  display: block;
+}
+.topLeft {
+  left: 0;
+  top: 0;
+}
+.topRight {
+  top: 0;
+  right: 0;
+}
+.bottomLeft {
+  bottom: 0;
+  left: 0;
+}
+.bottomRight {
+  bottom: 0;
+  right: 0;
+}

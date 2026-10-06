@@ -1,0 +1,36 @@
+
+
+.overlay{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.content{
+    background-color: white;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 50%;
+   font-size: 16px;
+
+}
+.content > h2{
+    font-size: 20px;
+    background-color: aliceblue;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.closeBtn{
+   align-self:flex-end;
+}

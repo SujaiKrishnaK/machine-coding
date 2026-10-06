@@ -1,0 +1,15 @@
+.main-container {
+  display: grid;
+  grid-template-columns: repeat(3, min(100px));
+}
+.box {
+  height: 100px;
+  width: 100px;
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.active {
+  background-color: green;
+}
